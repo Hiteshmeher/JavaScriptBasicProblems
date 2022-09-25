@@ -1,6 +1,6 @@
 //Read a single digit number and write the number in word
-import { question } from "readline-sync";
-let number = parseInt(question("Enter the single digit number: "));
+var prompt = require('prompt-sync')();
+let number = parseInt(prompt("Enter the single digit number: "));
 if(number == 0 ){
     console.log("The number is ZERO");
 }else if(number == 1){

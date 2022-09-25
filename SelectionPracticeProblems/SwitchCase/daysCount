@@ -1,9 +1,8 @@
 //Read a Number and Display the week day (Sunday, Monday,...)
 
 var prompt = require('prompt-sync')();
-
+// taking number from user
 let number = parseInt(prompt("Enter the number"));
-console.log(number);
 
 switch (number){
       case 1:

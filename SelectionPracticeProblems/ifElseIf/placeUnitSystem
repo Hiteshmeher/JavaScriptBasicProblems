@@ -1,6 +1,6 @@
 //Read a Number 1, 10, 100, 1000, etc and display unit, ten, hundred,...
-const readline = require("readline-sync");
-let num = parseInt(readline("Enter the number(1, 10, 100, 1000, 10000): "));
+var prompt = require("prompt-sync")();
+var num = parseInt(prompt("Enter the number(1, 10, 100, 1000, 10000): "));
 if(num == 1 ){
     console.log("You Entered Units");
 } else if (num == 10) {
